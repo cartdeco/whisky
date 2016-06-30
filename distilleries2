@@ -1,0 +1,2603 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deanston",
+        "founded": "1965",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "3000000",
+        "type": "Single Malt",
+        "age": "12 years old",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Distell, South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9485,
+          56.336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edradour",
+        "founded": "1825",
+        "status": "Active",
+        "number_of_": null,
+        "capacity_l": "95000",
+        "type": "Single Malt",
+        "age": "10, 12 years old",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Signatory Vintage Scotch Whisky Co."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7915,
+          56.7608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Ellen",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1897,
+          55.6435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laphroaig",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1529,
+          55.6341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lagavulin",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1207,
+          55.6405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fettercairn",
+        "founded": "1824",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "1600000",
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Alliance Global Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5903,
+          56.8515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tobermory",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0679,
+          56.6192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springbank",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6106,
+          55.4282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oban",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.4711,
+          56.4126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Littlemill",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4648,
+          55.9315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bladnoch",
+        "founded": "1825",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "250000",
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "David Prior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4809,
+          54.8616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tullibardine",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7822,
+          56.2628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rosebank",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7591,
+          55.9704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Magdalene",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5325,
+          55.9615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunnahabhain",
+        "founded": "1881",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12, 18, 25, 40 years old",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Distell, South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1399,
+          55.8892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clynelish",
+        "founded": "1872",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "3400000",
+        "type": "Single Malt",
+        "age": "14 years old",
+        "abv": "46%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8795,
+          58.0111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cragganmore",
+        "founded": "1869",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "1520000",
+        "type": "Single Malt",
+        "age": "12 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3833,
+          57.3963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teaninich",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.214,
+          57.6953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalmore",
+        "founded": "1839",
+        "status": "Operational",
+        "number_of_": "4",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12, 15, 18 and 25 years old",
+        "abv": "40-43%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Alliance Global Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2028,
+          57.6893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milburn",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0858,
+          57.451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomatin",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9907,
+          57.3293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalwhinnie",
+        "founded": "1898",
+        "status": "Active",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "15 years old",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2404,
+          56.946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Elgin",
+        "founded": "1898",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": "1830000",
+        "type": null,
+        "age": "12 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.257,
+          57.5854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomore",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4167,
+          57.3903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomintoul",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3773,
+          57.3093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miltonduff",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3585,
+          57.6359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamdhu",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3276,
+          57.4803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Glenlivet",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3218,
+          57.3513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Port",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4971,
+          56.6259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lochside",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4971,
+          56.6859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Ord",
+        "founded": "1838",
+        "status": "Operational",
+        "number_of_": "7",
+        "capacity_l": "11500000",
+        "type": "Single Malt",
+        "age": "12, 15, 18, 32 and 36 years",
+        "abv": "40-46%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.479,
+          57.5183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Scotia",
+        "founded": "1832",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "15 years old",
+        "abv": null,
+        "region": "Campbelltown",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Loch Lomond Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.604873,
+          55.429452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isle of Jura",
+        "founded": "1810",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Island",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Emperador Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9581,
+          55.8472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kingsbarns",
+        "founded": "2014",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Lowlands",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.642386,
+          56.287407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lochnagar",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2161,
+          57.0303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamnavulin",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2996,
+          57.3213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pittyvaich",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0948,
+          57.4227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dufftown",
+        "founded": "1895",
+        "status": "Operational",
+        "number_of_": "6",
+        "capacity_l": "4000000",
+        "type": "Blended",
+        "age": "15 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1171,
+          57.4347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mortlach",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0948,
+          57.4347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenallachie",
+        "founded": "1967",
+        "status": "Open",
+        "number_of_": "2",
+        "capacity_l": "3200000",
+        "type": "Single Malt and Blended",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.22871,
+          57.45518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abhainn Dearg",
+        "founded": "2007",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "3 years",
+        "abv": "46%, 56%, 58%",
+        "region": "Island",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Independent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.044722,
+          58.170833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ailsa Bay",
+        "founded": null,
+        "status": "Operational",
+        "number_of_": "4",
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "William Grant & Sons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8335,
+          55.2618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Allt-a-Bhainne",
+        "founded": "1975",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "4000000",
+        "type": "Scotch",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1608,
+          57.3963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auchriosk",
+        "founded": "1972",
+        "status": "Active",
+        "number_of_": "4",
+        "capacity_l": "3100000",
+        "type": "Blended",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0129,
+          57.547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Longmorn",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2625,
+          57.5944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aultmore",
+        "founded": "1895",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "2100000",
+        "type": "Single Malt",
+        "age": "12 years",
+        "abv": "43%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Bacardi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9548,
+          57.5714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Braeval",
+        "founded": "1973",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "4200000",
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3129,
+          57.2913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linkwood",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2476,
+          57.6184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Macallan",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2051,
+          57.4863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cardhu",
+        "founded": "1824",
+        "status": "Active",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2943,
+          57.4803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Speyburn",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.188,
+          57.5384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craigellachie",
+        "founded": "1891",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "4000000",
+        "type": "Single Malt",
+        "age": "13, 17, 19 and 23 years",
+        "abv": "40%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Bacardi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1731,
+          57.4828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dailuaine",
+        "founded": "1852",
+        "status": "Active",
+        "number_of_": null,
+        "capacity_l": "3370000",
+        "type": "Single Malt",
+        "age": "7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 32, 34 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2609,
+          57.4443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scapa",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0253,
+          58.9523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strathmill",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9548,
+          57.5444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strathisla",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9548,
+          57.5474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Macduff",
+        "founded": null,
+        "status": null,
+        "number_of_": null,
+        "capacity_l": null,
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": null,
+        "open_to_pu": null,
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.474,
+          57.6715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Deveron (MacDuff)",
+        "founded": "1960",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": "2400000",
+        "type": "Single Malt",
+        "age": "10, 11, 17, 32 and 36 years old",
+        "abv": "40%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "John Dewar & Sons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.51275,
+          57.657881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glendullan",
+        "founded": "1897",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12 and 23 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.106,
+          57.4443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Grant",
+        "founded": "1840",
+        "status": "Active",
+        "number_of_": "4",
+        "capacity_l": "5900000",
+        "type": "Single Malt",
+        "age": "10, 12 and 18 years",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Gruppo Campari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2176,
+          57.5344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mannochmore",
+        "founded": "1971",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3015,
+          57.5824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glentauchers",
+        "founded": "1897",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": "4500000",
+        "type": "Single Malt",
+        "age": "15 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.94,
+          57.5434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Inchgower",
+        "founded": "1871",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "1990000",
+        "type": "Single Malt",
+        "age": "12, 13, 14, 21 and 30 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9629,
+          57.6691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knockdhu",
+        "founded": "1894",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "1700000",
+        "type": "Single Malt",
+        "age": "12 and 16 years old",
+        "abv": "40-50%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Inver House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7598,
+          57.562075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auchentoshan",
+        "founded": "1823",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "1800000",
+        "type": "Single Malt",
+        "age": "10 Years\n12 Years\n18 Years\n21 Years",
+        "abv": "40%-43%",
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Beam Suntory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3941,
+          55.9135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbikie",
+        "founded": null,
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Arbikie Distilling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.553248,
+          56.647999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arran",
+        "founded": "1995",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "750000",
+        "type": "Single Malt",
+        "age": "10 Years, 12 Years, 14 Years, 18 years",
+        "abv": "46%",
+        "region": "Island",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Isle of Arran Distillers Ltd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aberfeldy",
+        "founded": "1896",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "3500000",
+        "type": "Single Malt",
+        "age": "12 years",
+        "abv": "40%-43%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Bacardi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8647,
+          56.6065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BenRiach",
+        "founded": "1898",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "2800000",
+        "type": "Single Malt",
+        "age": "10-year-old\n16-year-old\n20-year-old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "BenRiach Distillery Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2625,
+          57.6024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ardmore",
+        "founded": "1898",
+        "status": "Operational",
+        "number_of_": "4",
+        "capacity_l": "5530000",
+        "type": "Single Malt",
+        "age": "Traditional, Triple Wood, Legacy (NAS), 12 years (Port Wood), 25 years, 30 years",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Beam Suntory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.757,
+          57.3401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ardnamurchan",
+        "founded": "2014",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Adelphi Whisky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.940658,
+          56.691484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "anCnoc",
+        "founded": "1894",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1700000",
+        "type": "Single Malt",
+        "age": "12, 16, 18, 22 and 35 years",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "By appointment",
+        "owner": "Inver House Distillers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.759167,
+          57.563333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benromach",
+        "founded": "1898",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "1500000",
+        "type": "Single Malt",
+        "age": "5, 10, 15, 21, 24, 50 years old.",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Gordon & MacPhail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5984,
+          57.5998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balblair",
+        "founded": "1790",
+        "status": "Active",
+        "number_of_": "1",
+        "capacity_l": "1800000",
+        "type": "Single Malt",
+        "age": "Various",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "ThaiBev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1734,
+          57.828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Annandale",
+        "founded": "1836",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Annandale Distillery Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.255708,
+          55.001681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balmenach",
+        "founded": "1824",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": "2000000",
+        "type": "Scottish Gin",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "ThaiBev"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3574,
+          57.1833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balvenie",
+        "founded": "1892",
+        "status": "Operational",
+        "number_of_": "5",
+        "capacity_l": "5600000",
+        "type": "Single Malt",
+        "age": "\t10-year-old\n12-year-old\n14-year-old\n15-year-old\n17-year-old\n18-year-old\n21-year-old\n25-year-old\n30-year-old\nvarious vintages",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "William Grant & Sons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0993,
+          57.4444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ben Nevis",
+        "founded": "1825",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "2000000",
+        "type": "Single Malt",
+        "age": "10-year-old\n16-year-old\n21-year-old",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Nikka Whisky Distilling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0841,
+          56.8178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benrinnes",
+        "founded": "1835",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "15 years",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.236119,
+          57.441908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blair Atholl",
+        "founded": "1798",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "2500000",
+        "type": "Single Malt",
+        "age": "12 years",
+        "abv": "43%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8188,
+          56.7698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bowmore",
+        "founded": "1779",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1700000",
+        "type": "Single Malt",
+        "age": "\tLegend\n12-year-old\n15-year-old\n18-year-old\n25-year-old",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Beam Suntory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.28,
+          55.7512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brackla",
+        "founded": "1812",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "3500000",
+        "type": "Single Malt",
+        "age": "12-year-old 16-year-old 21-year-old",
+        "abv": "40%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Bacardi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.905467,
+          57.539692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glengyle",
+        "founded": "1872",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": null,
+        "abv": null,
+        "region": "Campbelltown",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.61095,
+          55.427208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aberlour",
+        "founded": "1879",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "10, 12, 15, 16, 18 and 30 years",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2163,
+          57.4623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ardbeg",
+        "founded": "1815",
+        "status": "Active",
+        "number_of_": "1",
+        "capacity_l": "1250000",
+        "type": "Single Malt",
+        "age": "\t10 Year Old\nAirigh Nam Beist\nBlasda\nCorryvreckan\nSupernova\nUigeadail\nRollercoaster\nAlligator\nArdbeg Day\nGalileo\nArdbog",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "LVMH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0994,
+          55.6525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glencadam",
+        "founded": "1825",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "1500000",
+        "type": "Single Malt",
+        "age": "10, 12, 14, 15 and 21 years old",
+        "abv": "46%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Angus Dundee plc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8467,
+          56.6619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruichladdich",
+        "founded": "1881",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1500000",
+        "type": "Single Malt",
+        "age": "2013 Core Range:\nBruichladdich Scottish Barley\nBruichladdich Islay Barley\nBruichladdich The Organic\nBruichladdich Bere Barley\nBruichladdich Black Art",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Remy Cointreau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3625,
+          55.766359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caol Ila",
+        "founded": "1846",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "3500000",
+        "type": "Single Malt",
+        "age": "12, 18, 25 years old",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1093,
+          55.8517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Keith",
+        "founded": "1957",
+        "status": "Under redevelopment",
+        "number_of_": "3",
+        "capacity_l": "3500000",
+        "type": "Blended",
+        "age": null,
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9571,
+          57.535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Daftmill",
+        "founded": "2005",
+        "status": "Active",
+        "number_of_": "1",
+        "capacity_l": "2500",
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": "By appointment",
+        "owner": "Independent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.103983,
+          56.29725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenburgie",
+        "founded": "1810",
+        "status": "Open",
+        "number_of_": "3",
+        "capacity_l": "4200000",
+        "type": null,
+        "age": null,
+        "abv": null,
+        "region": null,
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4191,
+          57.6359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Garioch",
+        "founded": "1797",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12 years old. Vintages",
+        "abv": null,
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Beam Suntory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3303,
+          57.3438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenfiddich",
+        "founded": "1886",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "12, 15, 18, 19, 21, 30, 40 and 50 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "William Grant & Sons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1122,
+          57.4454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GlenDronach",
+        "founded": "1826",
+        "status": "Active",
+        "number_of_": "2",
+        "capacity_l": "1300000",
+        "type": "Single Malt",
+        "age": "8, 12, 15, 18, 20, 21, 31 and 33 years old",
+        "abv": "43-48%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "BenRiach Distillery Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5907,
+          57.4502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenfarclas",
+        "founded": "1836",
+        "status": "Active",
+        "number_of_": "3",
+        "capacity_l": "3000000",
+        "type": "Single Malt",
+        "age": "10, 12, 15, 17, 18, 21, 25, 30 and 40 years old",
+        "abv": "40, 43 and 46%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "J & G Grant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.316361,
+          57.427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenglassaugh",
+        "founded": "1875",
+        "status": "Operational",
+        "number_of_": null,
+        "capacity_l": "1000000",
+        "type": "Single Malt",
+        "age": "Various",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "BenRiach Distillery Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6982,
+          57.6835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenkinchie",
+        "founded": "1837",
+        "status": "Active",
+        "number_of_": null,
+        "capacity_l": "2700000",
+        "type": "Single Malt",
+        "age": "12 and 14 years old",
+        "abv": null,
+        "region": "Lowland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.891528,
+          55.891444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glengoyne",
+        "founded": "1833",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1100000",
+        "type": "Single Malt",
+        "age": "10, 12, 15, 18, 21 and 25 years old",
+        "abv": "40-57.2%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Dumgoyne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4305,
+          56.0059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenmorangie",
+        "founded": "1843",
+        "status": "Operational",
+        "number_of_": "6",
+        "capacity_l": "6000000",
+        "type": "Single Malt",
+        "age": "10, 12, 18 and 25 years old",
+        "abv": "40-46%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Louis Vuitton Moët Hennessy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0484,
+          57.8118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenlivet",
+        "founded": "1824",
+        "status": "Operational",
+        "number_of_": "7",
+        "capacity_l": "10500000",
+        "type": "Single Malt",
+        "age": "12, 15, 16, 18, 21 and 25 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Pernod Ricard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.338694,
+          57.343056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Spey",
+        "founded": "1878",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1400000",
+        "type": "Single Malt",
+        "age": "8 and 14 years old",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "No",
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1954,
+          57.5224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Moray",
+        "founded": "1897",
+        "status": "Operational",
+        "number_of_": "3",
+        "capacity_l": "3300000",
+        "type": "Single Malt",
+        "age": "12 and 16 years old plus special bottlings",
+        "abv": "40%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "La Martiniquaise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3361,
+          57.6599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenrothes",
+        "founded": "1878",
+        "status": "Operational",
+        "number_of_": "5",
+        "capacity_l": null,
+        "type": "Single Malt",
+        "age": "Select Reserve",
+        "abv": null,
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "The Edrington Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2176,
+          57.5224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Highland Park",
+        "founded": "1798",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "2500000",
+        "type": "Single Malt",
+        "age": "12, 15, 16, 18, 21, 25, 30 and 40 years old",
+        "abv": null,
+        "region": "Island",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Edrington Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9323,
+          58.9923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kilchoman",
+        "founded": "2005",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "90000",
+        "type": "Single Malt",
+        "age": "3, 5, 8, 10 and 12 years old",
+        "abv": null,
+        "region": "Islay",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Independent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.430833,
+          55.786944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenturret",
+        "founded": "1775",
+        "status": "Operational",
+        "number_of_": "1",
+        "capacity_l": "340000",
+        "type": "Single Malt",
+        "age": "8, 10, 12, 15, 18, 21 and 25 years old",
+        "abv": "37.5-55.6%",
+        "region": "Highland",
+        "country": "Scotland",
+        "open_to_pu": "Yes",
+        "owner": "Highland Distillers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8232,
+          56.3732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kininvie",
+        "founded": "1990",
+        "status": "Open",
+        "number_of_": "3",
+        "capacity_l": null,
+        "type": "Blended Malt",
+        "age": null,
+        "abv": "40%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "William Grant & Sons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.130028,
+          57.466222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knockando",
+        "founded": "1898",
+        "status": "Operational",
+        "number_of_": "2",
+        "capacity_l": "1800000",
+        "type": "Single Malt",
+        "age": "18 years old",
+        "abv": "40%",
+        "region": "Speyside",
+        "country": "Scotland",
+        "open_to_pu": null,
+        "owner": "Diageo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2832,
+          57.4623
+        ]
+      }
+    }
+  ]
+}
