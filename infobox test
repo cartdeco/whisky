@@ -1,0 +1,22 @@
+<div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(272px, 243px, 0px); bottom: -7px; left: -208px;">
+    <a class="leaflet-popup-close-button" href="#close">×</a>
+    <div class="leaflet-popup-content-wrapper">
+        <div class="leaflet-popup-content" style="width: 416px;">
+            <a href="{homepage}" class="popup-product-link">
+                <div class="popup-product-image">
+                    <img src="{image}">
+                </div>
+                <div class="popup-product-content">
+                    <p class="popup-product-title"><strone>{name}</strong></p>
+                    <p class="popup-product-founded"><strong>Founded {founded}</strong></p>
+                    <p class="popup-product-status">Status {status}</p>
+                    <p class="popup-product-type">Type {type}</p>
+                    <p class="popup-product-open">Open to the public {open_to_public}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="leaflet-popup-tip-container">
+        <div class="leaflet-popup-tip"></div>
+    </div>
+</div>
