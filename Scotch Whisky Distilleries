@@ -28,8 +28,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #f0cccc;
+        color: #fff;
+        background: #a3acd8;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -49,8 +49,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #cfc1dc;
+        color: #fff;
+        background: #d8a6a3;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -70,8 +70,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #aadadf;
+        color: #fff;
+        background: #af9d94;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -91,8 +91,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #baab7d;
+        color: #fff;
+        background: #43475d;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -112,8 +112,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #e2eab8;
+        color: #fff;
+        background: #7a98b9;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -133,8 +133,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #333;
-        background: #d6a8a9;
+        color: #fff;
+        background: #5d4543;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -145,6 +145,31 @@
         font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
 </style>
+    
+<style>
+    <div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(272px, 243px, 0px); bottom: -7px; left: -208px;">
+    <a class="leaflet-popup-close-button" href="#close">×</a>
+    <div class="leaflet-popup-content-wrapper">
+        <div class="leaflet-popup-content" style="width: 416px;">
+            <a href="{homepage}" class="popup-product-link">
+                <div class="popup-product-image">
+                    <img src="{image}">
+                </div>
+                <div class="popup-product-content">
+                    <p class="popup-product-title"><strone>{name}</strong></p>
+                    <p class="popup-product-founded"><strong>Founded {founded}</strong></p>
+                    <p class="popup-product-status">Status {status}</p>
+                    <p class="popup-product-type">Type {type}</p>
+                    <p class="popup-product-open">Open to the public {open_to_public}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="leaflet-popup-tip-container">
+        <div class="leaflet-popup-tip"></div>
+    </div>
+</div> 
+</style>
 
 <div id='map'></div>
 <br/>
@@ -154,8 +179,14 @@
 <button id='islands'>ISLANDS</button>
 <button id='islay'>ISLAY</button>
 <button id='lowland'>LOWLAND</button>
-    
+
 <script>
+    
+// Navigation tools
+var nav = new mapboxgl.Navigation({
+    position: 'top-left'
+}); // position is optional
+
 
 // Set bounds to Scotland
 var bounds = [
@@ -172,6 +203,12 @@ var map = new mapboxgl.Map({
     zoom: 6.5, // starting zoom
     maxBounds: bounds // Sets bounds as max
 });
+    
+map.addControl(nav); // navigation controls + -
+
+map.addControl(new mapboxgl.Geolocate({position: 'top-left'})); // Geolocation tool
+    
+// Data - geojson
     
 map.on('load', function () {
     map.addSource("distilleries", {
@@ -3393,13 +3430,14 @@ map.on('load', function () {
         }
                   
     );
-    
+    // Style map markers
     map.addLayer({
         "id": "distilleries",
-        "type": "symbol",
+        "type": "circle",
         "source": "distilleries",
-        "layout": {
-            "icon-image": "{icon}-15"
+        "paint": {
+            "circle-radius": 6,
+            "circle-color": "#a046b0",            
         }
     // This is the important part of this example: the addLayer
     // method takes 2 arguments: the layer as an object, and a string
@@ -3417,25 +3455,7 @@ var popup = new mapboxgl.Popup({
     closeOnClick: false
 });
 
-map.on('mousemove', function(e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['distilleries'] });
-    // Change the cursor style as a UI indicator.
-    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 
-    if (!features.length) {
-        popup.remove();
-        return;
-    }
-
-    var feature = features[0];
-
-    // Populate the popup and set its coordinates
-    // based on the feature found. Use name property as popup text.
-    
-    popup.setLngLat(feature.geometry.coordinates)
-        .setHTML(feature.properties.name)
-        .addTo(map);
-});
     
     // Determine whisky region extents
 document.getElementById('speyside').addEventListener('click', function() {
@@ -3512,7 +3532,7 @@ map.on('click', function (e) {
     var link = document.createElement('a');
     link.href = feature.properties.homepage;
     link.target = '_blank';
-    link.textContent = feature.properties.homepage;
+    link.textContent = feature.properties.name;
     
     // Use wrapped coordinates to ensure longitude is within (180, -180)
     var coords = feature.geometry.coordinates;
@@ -3522,6 +3542,7 @@ map.on('click', function (e) {
     popup.setLngLat(wrapped)
         .setHTML(link.outerHTML)
         .addTo(map);
+    
 });
 
 // Use the same approach as above to indicate that the symbols are clickable
@@ -3535,3 +3556,4 @@ map.on('mousemove', function (e) {
 
 </body>
 </html>
+
