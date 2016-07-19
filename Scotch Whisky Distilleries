@@ -6,6 +6,8 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="http://libs.cartodb.com/cartodb.js/v2/themes/css/cartodb.css" />
+    <link rel="stylesheet" href="http://geosprocket.com/assets/bootstrap/css/bootstrap.css" />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -28,8 +30,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #a3acd8;
+        color: #333;
+        background: #adc8bf;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -49,8 +51,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #d8a6a3;
+        color: #333;
+        background: #ffdcaa;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -70,8 +72,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #af9d94;
+        color: #333;
+        background: #e0ddb8;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -91,8 +93,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #43475d;
+        color: #333;
+        background: #c4c5ff;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -112,8 +114,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #7a98b9;
+        color: #333;
+        background: #b0c6d6;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -133,8 +135,8 @@
         font-size: 14px;
         font-weight: bold;
         text-align: center;
-        color: #fff;
-        background: #5d4543;
+        color: #333;
+        background: #e0bbab;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 </style>
@@ -145,30 +147,19 @@
         font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
 </style>
-    
+
 <style>
-    <div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(272px, 243px, 0px); bottom: -7px; left: -208px;">
-    <a class="leaflet-popup-close-button" href="#close">×</a>
-    <div class="leaflet-popup-content-wrapper">
-        <div class="leaflet-popup-content" style="width: 416px;">
-            <a href="{homepage}" class="popup-product-link">
-                <div class="popup-product-image">
-                    <img src="{image}">
-                </div>
-                <div class="popup-product-content">
-                    <p class="popup-product-title"><strone>{name}</strong></p>
-                    <p class="popup-product-founded"><strong>Founded {founded}</strong></p>
-                    <p class="popup-product-status">Status {status}</p>
-                    <p class="popup-product-type">Type {type}</p>
-                    <p class="popup-product-open">Open to the public {open_to_public}</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="leaflet-popup-tip-container">
-        <div class="leaflet-popup-tip"></div>
-    </div>
-</div> 
+    .mapboxgl-popup {
+        min-width: 160px;
+        max-width: 400px;
+        font: 12px/20px 'Roboto', Arial, Helvetica, sans-serif;
+        color: #333; 
+        padding: 0px;
+        display: flex;
+        margin: 0px 0px 0px 10px;
+        position: absolute;
+    }
+ 
 </style>
 
 <div id='map'></div>
@@ -3533,14 +3524,16 @@ map.on('click', function (e) {
     link.href = feature.properties.homepage;
     link.target = '_blank';
     link.textContent = feature.properties.name;
+
     
     // Use wrapped coordinates to ensure longitude is within (180, -180)
     var coords = feature.geometry.coordinates;
     var ll = new mapboxgl.LngLat(coords[0], coords[1]);
     var wrapped = ll.wrap();
 
+    var popup = new mapboxgl.Popup()
     popup.setLngLat(wrapped)
-        .setHTML(link.outerHTML)
+        .setHTML('<a href='+ feature.properties.homepage +' target=blank; class="popup-product-link"><div class="popup-product-content"><p class="popup-product-title"><h2>' + feature.properties.name + '</h2></p></a><p class="popup-product-founded"><strong>Founded: ' + feature.properties.founded + '</strong></p><p class="popup-product-status">Status: ' + feature.properties.status + '</p><p class="popup-product-type">Type: ' + feature.properties.type + '</p><p class="popup-product-open">Open to the public: '+ feature.properties.open_to_public + '</p></div>')
         .addTo(map);
     
 });
@@ -3556,4 +3549,3 @@ map.on('mousemove', function (e) {
 
 </body>
 </html>
-
